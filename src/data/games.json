@@ -3625,7 +3625,9 @@
     "hostLeague": "Las Palmas",
     "location": "Las Palmas",
     "field": "East Field",
-    "rawDivision": "Minors A"
+    "rawDivision": "Minors A",
+    "status": "cancelled",
+    "notes": "Cancelled due to rain; rescheduled to November 19"
   },
   {
     "id": "d66-2026-11-14-05",
@@ -3939,6 +3941,21 @@
     "field": "West Field",
     "rawDivision": "Minor B",
     "notes": "Rescheduled from November 13"
+  },
+  {
+    "id": "d66-2026-11-19-02",
+    "date": "2026-11-19",
+    "day": "Thursday",
+    "start": "5:30 PM",
+    "end": "7:00 PM",
+    "division": "Baseball - Minors A",
+    "away": "LP Titans - Svehla",
+    "home": "LP Red Tails Minors A - Gomez",
+    "hostLeague": "Las Palmas",
+    "location": "Las Palmas",
+    "field": "East Field",
+    "rawDivision": "Minors A",
+    "notes": "Rescheduled from November 14"
   },
   {
     "id": "d66-2026-11-20-01",
