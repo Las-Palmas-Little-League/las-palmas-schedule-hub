@@ -27,7 +27,8 @@
     "location": "Las Palmas",
     "field": "East Field",
     "rawDivision": "Minor B",
-    "notes": "Friday Minor B"
+    "status": "cancelled",
+    "notes": "Friday Minor B; cancelled due to rain; rescheduled to November 17"
   },
   {
     "id": "tee-ball-1",
@@ -3911,6 +3912,21 @@
     "location": "Las Palmas",
     "field": "East Field",
     "rawDivision": "Seniors"
+  },
+  {
+    "id": "d66-2026-11-17-01",
+    "date": "2026-11-17",
+    "day": "Tuesday",
+    "start": "6:00 PM",
+    "end": "7:30 PM",
+    "division": "Baseball - Minors B",
+    "away": "LP Thunderbolts - Silva/Dager",
+    "home": "LP The Mighty A's - Beltran",
+    "hostLeague": "Las Palmas",
+    "location": "Las Palmas",
+    "field": "East Field",
+    "rawDivision": "Minor B",
+    "notes": "Rescheduled from November 13"
   },
   {
     "id": "sb-2026-11-18-01",
