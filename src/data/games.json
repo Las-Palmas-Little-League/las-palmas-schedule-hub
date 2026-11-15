@@ -3695,7 +3695,9 @@
     "hostLeague": "Las Palmas",
     "location": "Las Palmas",
     "field": "West Field",
-    "rawDivision": "Minors"
+    "rawDivision": "Minors",
+    "status": "cancelled",
+    "notes": "Cancelled; rescheduled to November 18 with opponent corrected to LP Diamond Girls - Lugo"
   },
   {
     "id": "tee-ball-26",
@@ -3907,6 +3909,21 @@
     "location": "Las Palmas",
     "field": "East Field",
     "rawDivision": "Seniors"
+  },
+  {
+    "id": "sb-2026-11-18-01",
+    "date": "2026-11-18",
+    "day": "Wednesday",
+    "start": "5:30 PM",
+    "end": "7:00 PM",
+    "division": "Softball - Minors",
+    "away": "LP PocoLocas - Cortez",
+    "home": "LP Diamond Girls - Lugo",
+    "hostLeague": "Las Palmas",
+    "location": "Las Palmas",
+    "field": "West Field",
+    "rawDivision": "Minors",
+    "notes": "Rescheduled from November 14; opponent corrected from LP - ChiquiTrinas - Munoz/Becerra"
   },
   {
     "id": "d66-2026-11-19-01",
