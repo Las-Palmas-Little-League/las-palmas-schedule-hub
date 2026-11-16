@@ -46,6 +46,6 @@ test("Nov 13 Thunderbolts rainout is cancelled and rescheduled to Nov 17", () =>
     }
   );
 
-  assert.equal(gameRevisions[original.id], "2026-11-15T03:17:27Z");
-  assert.equal(gameRevisions[replacement.id], "2026-11-15T03:17:27Z");
+  assert.equal(gameRevisions[original.id], "2026-11-16T04:02:00Z");
+  assert.equal(gameRevisions[replacement.id], "2026-11-16T04:02:00Z");
 });
