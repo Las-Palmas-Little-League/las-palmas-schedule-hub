@@ -35,8 +35,8 @@ test("Nov 13 Thunderbolts rainout is cancelled and rescheduled to Nov 17", () =>
     {
       date: "2026-11-17",
       day: "Tuesday",
-      start: "6:00 PM",
-      end: "7:30 PM",
+      start: "5:30 PM",
+      end: "7:00 PM",
       division: "Baseball - Minors B",
       away: "LP Thunderbolts - Silva/Dager",
       home: "LP The Mighty A's - Beltran",
