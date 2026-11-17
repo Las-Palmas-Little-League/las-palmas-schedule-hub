@@ -9,9 +9,11 @@ const gameRevisions = JSON.parse(
   await readFile(new URL("../src/data/gameRevisions.json", import.meta.url), "utf8")
 );
 
-test("Nov 14 Dirtbags vs Coyotes game is updated to Las Palmas East Field", () => {
+test("Nov 14 Dirtbags vs Coyotes game is rescheduled to Nov 18", () => {
   const game = games.find((entry) => entry.id === "d66-2026-11-14-05");
 
+  assert.equal(game.status, "cancelled");
+  assert.equal(game.notes, "Cancelled; rescheduled to November 18");
   assert.deepEqual(
     {
       date: game.date,
@@ -34,7 +36,40 @@ test("Nov 14 Dirtbags vs Coyotes game is updated to Las Palmas East Field", () =
       field: "East Field",
     }
   );
-  assert.equal(gameRevisions[game.id], "2026-11-02T18:56:54Z");
+
+  const replacement = games.find(
+    (entry) => entry.id === "d66-2026-11-18-01"
+  );
+  assert.deepEqual(
+    {
+      date: replacement.date,
+      day: replacement.day,
+      start: replacement.start,
+      end: replacement.end,
+      division: replacement.division,
+      away: replacement.away,
+      home: replacement.home,
+      hostLeague: replacement.hostLeague,
+      location: replacement.location,
+      field: replacement.field,
+      notes: replacement.notes,
+    },
+    {
+      date: "2026-11-18",
+      day: "Wednesday",
+      start: "7:00 PM",
+      end: "8:30 PM",
+      division: "Baseball - Majors",
+      away: "LP Dirtbags - Ybarra",
+      home: "LP Coyotes - Rodriguez",
+      hostLeague: "Las Palmas",
+      location: "Las Palmas",
+      field: "East Field",
+      notes: "Rescheduled from November 14",
+    }
+  );
+  assert.equal(gameRevisions[game.id], "2026-11-17T01:46:07Z");
+  assert.equal(gameRevisions[replacement.id], "2026-11-17T01:46:07Z");
 });
 
 test("Nov 14 Storm vs Violent Vipers game starts at 12:45 PM", () => {
