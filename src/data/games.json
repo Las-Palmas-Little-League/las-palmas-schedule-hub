@@ -3642,7 +3642,9 @@
     "hostLeague": "Las Palmas",
     "location": "Las Palmas",
     "field": "East Field",
-    "rawDivision": "Majors"
+    "rawDivision": "Majors",
+    "status": "cancelled",
+    "notes": "Cancelled; rescheduled to November 18"
   },
   {
     "id": "sb-2026-11-14-01",
@@ -3942,6 +3944,21 @@
     "field": "West Field",
     "rawDivision": "Minors",
     "notes": "Rescheduled from November 14; opponent corrected from LP - ChiquiTrinas - Munoz/Becerra"
+  },
+  {
+    "id": "d66-2026-11-18-01",
+    "date": "2026-11-18",
+    "day": "Wednesday",
+    "start": "7:00 PM",
+    "end": "8:30 PM",
+    "division": "Baseball - Majors",
+    "away": "LP Dirtbags - Ybarra",
+    "home": "LP Coyotes - Rodriguez",
+    "hostLeague": "Las Palmas",
+    "location": "Las Palmas",
+    "field": "East Field",
+    "rawDivision": "Majors",
+    "notes": "Rescheduled from November 14"
   },
   {
     "id": "d66-2026-11-19-01",
